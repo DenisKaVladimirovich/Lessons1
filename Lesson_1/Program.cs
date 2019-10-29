@@ -9,7 +9,7 @@ namespace Lesson_1
         {
             Console.WriteLine("Введите имя");
             string name = Console.ReadLine();
-            Console.ReadKey();
+            Thread.Sleep(3000);
             Console.WriteLine("Привет, {0}, {1}, {2}, {3}", name, "Maria", "Vladislav", "Ivan");
             Console.ReadKey();
         }
